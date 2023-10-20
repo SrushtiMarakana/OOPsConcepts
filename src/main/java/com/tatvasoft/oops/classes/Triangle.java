@@ -7,6 +7,10 @@ public class Triangle implements Shape{
 	double base;
 	double height;
 
+	public Triangle() {
+		super();
+	}
+
 	public Triangle(double base, double height) {
 		super();
 		this.base = base;

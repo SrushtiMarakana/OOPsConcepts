@@ -5,6 +5,10 @@ import com.tatvasoft.oops.interfaces.Shape;
 public class Square implements Shape{
 	
 	double length;
+	
+	public Square() {
+		super();
+	}
 
 	public Square(double length) {
 		super();
